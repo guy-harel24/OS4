@@ -80,6 +80,7 @@ size_t _num_free_blocks(){
 }
 
 size_t _num_free_bytes(){
+    int c = 0;
     return hmd.num_free_bytes;
 }
 
